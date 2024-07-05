@@ -20,4 +20,4 @@ def run_single_commands(commands):
 if __name__ == '__main__':
     net_folders = [f.path for f in os.scandir('./data') if f.is_dir() and 'output' in f.path]
     run_commands = [compose_train_command(folder) for folder in net_folders]
-    run_single_commands(run_commands[:5])
+    run_single_commands(run_commands)
