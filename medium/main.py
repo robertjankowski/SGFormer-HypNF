@@ -160,7 +160,7 @@ for run in range(args.runs):
 
 results = logger.print_statistics()
 print(results)
-out_folder = 'results'
+out_folder = 'results_remove_links'
 if not os.path.exists(out_folder):
     os.mkdir(out_folder)
 

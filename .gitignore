@@ -113,3 +113,12 @@ ENV/
 .ropeproject
 
 try*.sh
+
+*.gz
+*.zip
+.vscode/
+
+medium/data/
+medium/RandomizedData/
+medium/results*
+medium/data-rem/

@@ -35,7 +35,7 @@ def parser_add_main_args(parser):
     parser.add_argument('--epochs', type=int, default=500)
     parser.add_argument('--runs', type=int, default=1,
                         help='number of distinct runs')
-    parser.add_argument('--train_prop', type=float, default=.15,
+    parser.add_argument('--train_prop', type=float, default=.7,
                         help='training label proportion')
     parser.add_argument('--valid_prop', type=float, default=.15,
                         help='validation label proportion')
